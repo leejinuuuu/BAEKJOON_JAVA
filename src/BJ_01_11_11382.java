@@ -1,6 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-public class BJ_1_11_11382 {
+public class BJ_01_11_11382 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BJ_1_10_2588 {
+public class BJ_01_10_2588 {
         public static void main(String[] args) throws Exception{
         try (Scanner sc = new Scanner(System.in)) {
             int a,b;

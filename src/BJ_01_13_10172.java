@@ -1,4 +1,4 @@
-public class BJ_1_13_10172 {
+public class BJ_01_13_10172 {
     public static void main(String[] args) {
         System.out.println("|\\_/|");
         System.out.println("|q p|   /}");

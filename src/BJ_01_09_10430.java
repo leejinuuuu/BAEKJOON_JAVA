@@ -2,12 +2,18 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BJ_1_8_18108 {
+public class BJ_01_09_10430 {
         public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         
         Integer a = Integer.parseInt(st.nextToken());
-        System.out.print(a-543);
+        Integer b = Integer.parseInt(st.nextToken());
+        Integer c = Integer.parseInt(st.nextToken());
+
+        System.out.println((a+b)%c);
+        System.out.println(((a%c)+(b%c))%c);
+        System.out.println((a*b)%c);
+        System.out.println(((a%c)*(b%c))%c);
     }
 }
