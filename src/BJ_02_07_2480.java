@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.classfile.BufWriter;
 import java.util.StringTokenizer;
 
 public class BJ_02_07_2480 {
