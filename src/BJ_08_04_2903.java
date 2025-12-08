@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BJ_07_06_2903 {
+public class BJ_08_04_2903 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
