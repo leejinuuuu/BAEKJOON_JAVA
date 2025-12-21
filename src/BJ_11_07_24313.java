@@ -12,12 +12,7 @@ public class BJ_11_07_24313 {
         boolean result = true;
 
         for(int i=n0; i<=100; i++) {
-            System.out.print("a1*n0+a0 = " + (a1*n0+a0));
-            System.out.println(" , c*n0 = " + (c*n0));
-            
-            if((a1*n0+a0) > (c*n0)) {
-                
-
+            if((a1*i+a0) > (c*i)) {
                 result = false;
                 break;        
             }
